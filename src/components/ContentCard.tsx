@@ -13,7 +13,7 @@ export default function ContentCard({ item, onEdit }: { item: ContentItem; onEdi
     {isLeaderboard && <div className="rankline"><span>{item.meta === '01' ? <Star size={16} fill="currentColor" /> : `#${item.meta}`}</span><span className={`person-mark mini ${item.tone}`}>{initials(item.title)}</span></div>}
     {isLearning && <div className={`learning-art ${item.tone}`}><BookOpenIcon /></div>}
     <h3>{item.title || 'Untitled update'}</h3><p>{item.detail || 'Add a short description to bring this item to life.'}</p>
-    <button className="card-link" onClick={() => onEdit(item)}>{isLearning ? 'Edit learning path' : isChampion ? 'Edit story' : isLeaderboard ? 'Edit entry' : 'Edit update'} <ArrowUpRight size={15} /></button>
+    <button className="card-link" onClick={() => onEdit(item)}>{isLearning ? 'Edit learning road' : isChampion ? 'Edit story' : isLeaderboard ? 'Edit entry' : 'Edit update'} <ArrowUpRight size={15} /></button>
   </article>;
 }
 
