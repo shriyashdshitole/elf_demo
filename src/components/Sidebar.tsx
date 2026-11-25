@@ -6,7 +6,7 @@ const nav = [
   { id: 'announcements', label: 'Announcements', icon: Megaphone },
   { id: 'champions', label: 'Champion stories', icon: UsersRound },
   { id: 'leaderboard', label: 'Leaderboard', icon: Trophy },
-  { id: 'learning', label: 'Learning paths', icon: BookOpen },
+  { id: 'learning', label: 'Learning Roads', icon: BookOpen },
   { id: 'resources', label: 'Resources', icon: LibraryBig },
 ] as const;
 

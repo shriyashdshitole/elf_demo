@@ -4,7 +4,7 @@ export const sections: { id: SectionKey; label: string; eyebrow: string; descrip
   { id: 'announcements', label: 'Announcements', eyebrow: 'WHAT’S NEW', description: 'Updates and moments worth sharing with the team.' },
   { id: 'champions', label: 'Champion stories', eyebrow: 'PEOPLE OF AIBLE', description: 'Recognize the people putting AI into practice.' },
   { id: 'leaderboard', label: 'Leaderboard', eyebrow: 'COMMUNITY PULSE', description: 'Celebrate participation and progress.' },
-  { id: 'learning', label: 'Learning paths', eyebrow: 'BUILD YOUR SKILLS', description: 'Curated paths to go from curious to confident.' },
+  { id: 'learning', label: 'Learning Roads', eyebrow: 'BUILD YOUR SKILLS', description: 'Curated roads to go from curious to confident.' },
   { id: 'resources', label: 'Resources', eyebrow: 'YOUR TOOLKIT', description: 'The useful links and guides, all in one place.' },
 ];
 
